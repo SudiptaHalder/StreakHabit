@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /private/
+
+Sitemap: https://habitstreak.app/sitemap.xml
+
+# Crawl-delay: 10
+
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /private/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /private/
+
+User-agent: Slurp
+Allow: /
+Disallow: /api/
+Disallow: /private/
+
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /api/
+Disallow: /private/
